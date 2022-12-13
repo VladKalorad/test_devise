@@ -1,0 +1,9 @@
+<% @users.each do |user|%>
+  <p>email</p>
+  <%= user.email %> |||    
+  current_sign_in_ip:
+  <%= user.current_sign_in_ip %>
+  last_sign_in_at:
+  <%= user.last_sign_in_at %>
+  <br>
+<% end %>

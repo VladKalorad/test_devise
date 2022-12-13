@@ -1,0 +1,10 @@
+.button{
+  color: #ffffff;
+  background-color: rgb(82, 18, 156);
+  height: 40px;
+  width: 5%;
+  border-radius: 30px;
+}
+a:link {
+  color: #265301;
+}
